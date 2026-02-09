@@ -11,7 +11,7 @@ ii. You will probably find the chr function helpful when completing this exercis
 information about this function is available online.
 
 
-Level: Intermediate/Hard (An interview question I had to do)
+Level: Intermediate/Hard (An interview question I had to do in the past)
 2. Check a Password
 In this exercise you will write a function that determines whether or not a password is good. 
 We will define a good password to be a one that is at least 8 characters long and contains at 
@@ -43,8 +43,3 @@ not modified by the cipher. Write a program that implements a Caesar cipher. All
 the message, and then display the shifted message. Ensure that your program encodes both uppercase and 
 lowercase letters. Your program should also support negative shift values so that it can be used both 
 to encode messages and decode messages.
-
-
-5. Text search
-Usng the TextExample.py, import chapter one and search for all the occurences of the name 'Lara'. 
-There should be 30 occurences of the name.

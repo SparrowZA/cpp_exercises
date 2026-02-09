@@ -1,5 +1,5 @@
 1. Sum Items in List
-Create a function that takes in a the list below and reutrns the sum of all the
+Create a function that takes in a the list below and returns the sum of all the
 values in the list.
 
 (Copy this into your python file)
