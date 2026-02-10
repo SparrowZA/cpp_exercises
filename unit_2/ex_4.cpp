@@ -1,3 +1,12 @@
+/*
+    * Exercise 4: Average of a series of numbers
+    *
+    * Write a program that takes a series of numbers as input from the user and
+    * calculates the average. The user should be able to enter as many numbers as they
+    * want, and the program should stop taking input when the user enters a specific
+    * sentinel value (e.g., 0). The program should then calculate and display the
+    * average of the entered numbers, excluding the sentinel value.
+*/
 #include <iostream>
 
 

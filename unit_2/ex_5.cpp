@@ -1,3 +1,11 @@
+/*
+    * Exercise 5: Temperature Conversion Table
+    *
+    * Write a program that displays a table of Celsius temperatures and
+    * their Fahrenheit equivalents. The table should include the Celsius temperatures 0,
+    * 10, 20, ..., 100.
+    *
+*/
 #include <iostream>
 
 
