@@ -23,13 +23,7 @@ std::string generateRandomPassword(){
     int passwordLength = (std::rand() % 4) + 7;
 
     for(int i = 0; i <= passwordLength; i++){
-        int character = std::rand() % 94;
-        if(character < 33){
-            character = 33 + character;
-        }
-        else if(character > 126){
-            character = character - 33;
-        }
+        int character = (std::rand() % 75) + 48;
         password += character;
     }
     return password;
