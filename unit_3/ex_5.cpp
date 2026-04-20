@@ -43,6 +43,9 @@ std::string encrypt(const std::string data, int shiftValue){
 
 char shiftUpper(const char letter, int shift){
     /* Uppercase 65-90 */
+    // TODO: The const char letter parameter still creates a copy
+    // of the variable. A more memory efficient way would be to
+    // pass a const reference of the variable
     if((90 - letter) < shift){
         char tmp = 64 + ((letter + shift) - 90);
         return tmp;
@@ -54,6 +57,9 @@ char shiftUpper(const char letter, int shift){
 
 char shiftLower(const char letter, int shift){
     /* Lowercase 97-122 */
+    // TODO: The const char letter parameter still creates a copy
+    // of the variable. A more memory efficient way would be to
+    // pass a const reference of the variable
     if((122 - letter) < shift){
         char tmp = 96 + ((letter + shift) - 122);
         return tmp;
